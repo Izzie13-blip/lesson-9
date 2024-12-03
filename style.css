@@ -1,0 +1,29 @@
+input[type="email"]
+{
+background-color: blue;
+}
+ul>li{
+    color:red
+}
+h1+p{
+background-color: blueviolet;
+}
+a:hover{
+    color: bisque;
+}
+li:nth-child(2){
+    background-color: lawngreen;
+}
+div:not(.two){
+    color: firebrick;
+}
+.l::before{
+    content:"Lol😂 ";
+}
+.y::after{
+    content: "Hi😀";
+}
+h1::first-letter{
+    font-size: 200px;
+    color: orange;
+}
